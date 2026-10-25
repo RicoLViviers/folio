@@ -26,7 +26,7 @@ export default function Navbar() {
               Home
               <span className='absolute bottom-0 left-0 w-0 bg-white h-[1px] transition-all duration-200 group-hover:w-full'></span>
             </a>
-            <a href="#books" className='group relative py-1'>
+            <a href="/books" className='group relative py-1'>
               Books
               <span className='absolute bottom-0 left-0 w-0 bg-white h-[1px] transition-all duration-200 group-hover:w-full'></span>
             </a>
