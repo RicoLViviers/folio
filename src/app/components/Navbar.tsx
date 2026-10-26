@@ -18,7 +18,7 @@ function showSearchbar() {
 
 export default function Navbar() {
   return (
-    <header className='flex flex-row justify-between items-center bg-neutral-900 py-6 text-white px-20'>
+    <header className='fixed top-0 w-full z-50 flex flex-row justify-between items-center bg-neutral-900 py-6 text-white px-20'>
         <h1 className='cursor-pointer font-extrabold tracking-widest'>FOLIO</h1>
 
         <nav className='flex flex-row gap-8 text-sm'>
