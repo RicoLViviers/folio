@@ -41,7 +41,7 @@ export default function Navbar() {
         </nav>
 
         <div className='relative flex flex-row gap-6'>
-          <input id='searchbar' type="text" className='absolute right-full mr-4 border-white bg-neutral-800'/>
+          <input id='searchbar' type="text" className='absolute right-full mr-4 border-white bg-neutral-800 hidden'/>
           <Image onClick={showSearchbar} className='cursor-pointer' src={"images/magnify.svg"} alt='Search Icon' width={25} height={25}/>
           <Image className='cursor-pointer' src={"images/account.svg"} alt='Account Icon' width={25} height={25}/>
           <Image className='cursor-pointer' src={"images/cart.svg"} alt='Cart Icon' width={25} height={25}/>
