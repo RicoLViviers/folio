@@ -22,7 +22,7 @@ export default function Navbar() {
         <h1 className='cursor-pointer font-extrabold tracking-widest'>FOLIO</h1>
 
         <nav className='flex flex-row gap-8 text-sm'>
-            <a href="#home" className='group relative py-1'>
+            <a href="./" className='group relative py-1'>
               Home
               <span className='absolute bottom-0 left-0 w-0 bg-white h-[1px] transition-all duration-200 group-hover:w-full'></span>
             </a>
